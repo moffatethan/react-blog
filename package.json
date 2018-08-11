@@ -1,0 +1,30 @@
+{
+  "name": "blog-project",
+  "version": "1.0.0",
+  "description": "My personal blogging website",
+  "main": "src/index.jsx",
+  "scripts": {
+    "build": "webpack --config config/webpack.config.js",
+    "watch": "webpack --watch --config config/webpack.config.js",
+    "start": "webpack-dev-server --open --config config/webpack.config.js"
+  },
+  "repository": "none",
+  "author": "jd",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "emotion": "^9.2.6",
+    "emotion-theming": "^9.2.6",
+    "loader-utils": "^1.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-emotion": "^9.2.6",
+    "standard": "^11.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
