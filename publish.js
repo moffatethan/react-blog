@@ -1,0 +1,3 @@
+/*
+  This file is used for publishing the built project to GitHub pages.
+*/
