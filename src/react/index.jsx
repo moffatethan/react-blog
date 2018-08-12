@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Home from './pages/home.jsx'
+import Base from './pages/base.jsx'
 import { injectGlobal } from 'emotion'
 import colors from './components/ui/colors'
+import { BrowserRouter } from 'react-router-dom'
 
 injectGlobal`
   * {
@@ -16,5 +17,10 @@ injectGlobal`
     font-family: 'Source Sans Pro', sans-serif;
   }
 `
+const app = (
+  <BrowserRouter>
+    <Base />
+  </BrowserRouter>
+)
 
-ReactDOM.render(<Home />, document.getElementById('mount'))
+ReactDOM.render(app, document.getElementById('mount'))

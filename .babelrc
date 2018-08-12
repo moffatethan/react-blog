@@ -3,6 +3,6 @@
     "env",
     "react"
   ],
-  "compact": true,
+  // "compact": true,
   "comments": false
 }

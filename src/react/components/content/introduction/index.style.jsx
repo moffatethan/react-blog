@@ -13,7 +13,6 @@ const introWrapper = styled('div')`
   }
   #content-intro-important {
     color: ${colors.primary};
-    font-weight: 700;
   }
 `
 
