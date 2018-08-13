@@ -16,6 +16,15 @@ injectGlobal`
     background: ${colors.pageBackground};
     font-family: 'Source Sans Pro', sans-serif;
   }
+
+  h1 {
+    color: ${colors.primary};
+    font-family: 'Kadwa', 'Source Sans Pro', sans-serif;
+  }
+
+  h2, h3, h5, h6 {
+    color: ${colors.text};
+  }
 `
 const app = (
   <BrowserRouter>

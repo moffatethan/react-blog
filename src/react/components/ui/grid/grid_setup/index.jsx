@@ -6,7 +6,7 @@ const gridSetup = styled('div')(props => ({
   gridTemplateRows: `repeat(${props.gridRows}, 1fr)` || 'inherit',
   gridTemplateColumns: `repeat(${props.columns}, 1fr)` || 'inherit',
   margin: '0 auto',
-  height: '100vh'
+  height: `${props.noHeight ? 'none' : '100vh'};`
 }))
 
 export default gridSetup

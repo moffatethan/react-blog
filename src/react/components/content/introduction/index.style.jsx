@@ -3,9 +3,7 @@ import colors from '../../ui/colors'
 
 const introWrapper = styled('div')`
   h1 {
-    color: ${colors.primary};
     font-size: 4em;
-    font-family: 'Kadwa', 'Source Sans Pro', sans-serif;
   }
   #content-intro {
     font-size: 2.5em;
