@@ -5,7 +5,7 @@ import UI from '../ui'
 
 export default () =>
   <ProjectsWrapper>
-    <UI.Grid columns={3} gridGap='12px' noHeight>
+    <UI.Grid columns={2} gridGap='12px' noHeight>
       <UI.Column>
         <Project />
       </UI.Column>

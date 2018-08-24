@@ -11,7 +11,7 @@ export default () =>
       <HeaderWrapper>
         <Header image={PortfolioHeaderImage} />
       </HeaderWrapper>
-      <h2>
+      <h2 style={{fontSize: '37px'}}>
         My portfolio is all the projects I have done throughout my learning. It will be very basic to some really big projects. A lot of this stuff are concepts but they are pretty neat to check out.
       </h2>
       <Projects />
